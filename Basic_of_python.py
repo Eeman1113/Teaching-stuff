@@ -186,3 +186,7 @@ def list_funtions():
     #the list.remove(the thing you wanna delete) funtion- delets given digit from list
     l.remove('2')    
     print(l)
+    
+    
+    
+    #code written by Eeman Majumder
