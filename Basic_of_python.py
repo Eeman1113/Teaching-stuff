@@ -89,6 +89,16 @@ def variable_management():
     a=b+c
     print('a: ',a , 'b: ', b ,'c; ',c)
     print(a)
+    
+def arithmetics():
+    #arithmetics
+    print(2+2)#addition
+    print(2-2)#subtraction
+    print(2*2)#multiplication
+    print(2/2)#division
+    print(2**2)#exponent
+    print(2%2)#modulus
+    print(2//2)#Float
 
 #basic Functions and user input and output 
 def basic_funtions():
@@ -187,6 +197,135 @@ def list_funtions():
     l.remove('2')    
     print(l)
     
+def every_feature_of_tuples():
+    t=('1','2','3','4')
+    #tupele are immutable ,values of tuple cant be canged 
+    #tuple indexing and slicing is same as list
+    #how to form a tuple
+    a=10
+    a=tuple(a)
+    a=()#empty tuple
     
+def all_about_dictionaries():
+    #dictionaries are like lists but they are not ordered
+    #dictionaries are made up of key value pairs
+    #keys are unique and values can be anything
+    #dictionaries are used to store data
+  
+    #dictionaries
+    d={'a':'1','b':'2','c':'3'}
+    #for getting the key
+    print(d.key('1'))   
+    #for getting value
+    print(d.values('a'))
+    
+    #slicing and indexing 
+    print(d['a'])
+    
+def if_else():
+    #if else is used to compare values and execute a block of code
+    #if <condition> :
+    #   <block of code>
+    #else:
+    #   <block of code>
+    a=10
+    if a==10:
+        print('a is 10')
+    else:
+        print('a is not 10')
+        
+def if_else_elif():
+    #if else elif is used to compare values and execute a block of code
+    #if <condition> :
+    #   <block of code>
+    #elif <condition> :
+    #   <block of code>
+    #else:
+    #   <block of code>
+    a=10
+    if a==10:
+        print('a is 10')
+    elif a==20:
+        print('a is 20')
+    else:
+        print('a is not 10 or 20')
+        
+def for_loop():
+    #for loop is used to iterate over a list/range
+    #for <variable> in <list>:
+    #   <block of code>
+    #for <variable> in <range>:
+    #   <block of code>
+    l=['1','2','3','4']
+    for i in l:
+        print(i)
+        
+    for j in range(1,11):
+        print(j)
+        
+def while_loop():
+    #while loop is used to loop using a condition 
+    #while <condition>:
+    #   <block of code>
+    i=1
+    while i<=10:
+        print(i)
+        i+=1
+        
+def break_and_continue():
+    #break and continue are used to stop a loop
+    #break:
+    #   <block of code>
+    #continue:
+    #   <block of code>
+    i=1
+    while i<=10:
+        if i==5:
+            i+=1
+            continue # continue is used to skip the current iteration and go to the next iteration
+        print(i)
+        i+=1
+    while i<=10:
+        if i==5:
+            break # breaks loop and goes to next line
+        print(i)
+        i+=1
+        
+def def_STATEMENT():
+        #def is used to define a function
+        #used to make new funtions 
+        #def <function name>(<parameters>):
+        #   <block of code>
+        print('read the comments in code to understand')
+        
+def class_statement():
+        #class is used to define a class(collection of functions)
+        #example:
+        #class <class name>:
+        #   def <function name>(<parameters>):
+        #       <block of code>
+        #   def <function name>(<parameters>):
+        #       <block of code>
+        print("read the comments in code to understand")
+        
+def modules():
+        #modules are used to group functions and classes together
+        #example:
+        #class <class name>:
+        #   def <function name>(<parameters>):
+        #       <block of code>
+        #def <function name>(<parameters>):
+        #   <block of code>
+        #def <function name>(<parameters>):
+        #   <block of code>
+        
+        # how to import modules
+        #import <module name>
+        print("read the comments in code to understand")
+        
+def array():
+    # array is just a fancy name for list 
+    array=[]
+    #everything is same as list
     
     #code written by Eeman Majumder
